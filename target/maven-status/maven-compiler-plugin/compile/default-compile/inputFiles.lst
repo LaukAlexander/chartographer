@@ -1,0 +1,10 @@
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/controllers/ApplicationController.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/configuration/ApplicationConfiguration.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/entity/Folder.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/helpers/FilesHelper.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/services/ChartaRestorationAsyncService.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/ChartographerApplication.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/services/ChartaGettingFragmentAsyncService.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/services/ChartaDeletionAsyncService.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/entity/SimpleFile.java
+/home/java/IdeaProjects/kontur-test/chartographer/src/main/java/ru/lauk/chartographer/services/ChartaCreationAsyncService.java
