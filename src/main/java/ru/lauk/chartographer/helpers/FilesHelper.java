@@ -37,7 +37,7 @@ public class FilesHelper {
     }
 
     public static String getAbsolutePath(String fileName) {
-        return filePath + fileName + FILE_FORMAT;
+        return filePath + "/" + fileName + FILE_FORMAT;
     }
 
     public static String getAbsolutePath(String folderPath, String fileName) {

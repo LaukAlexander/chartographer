@@ -27,8 +27,6 @@ class ApplicationControllerTest extends Assertions {
 
     @BeforeEach
     void setUp() {
-        String filePath;
-        String absolutePath;
         String testFragmentName = "TestFragment.bmp";
         URL url = this.getClass().getResource("/" + testFragmentName);
         InputStream inputStream = this.getClass().getResourceAsStream("/" + testFragmentName);
@@ -38,10 +36,7 @@ class ApplicationControllerTest extends Assertions {
         assert url != null;
         testFragment = new File(url.getFile());
 
-        absolutePath = testFragment.getAbsolutePath();
-        filePath = absolutePath
-                .substring(0, (absolutePath.indexOf(testFragmentName)));
-        FilesHelper.setFilePath(filePath);
+        FilesHelper.setFilePath(testFragment.getParent());
     }
 
     @Test
